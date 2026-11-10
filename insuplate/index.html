@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Insuplate — Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           line-height: 1.6; max-width: 760px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+    h1 { font-size: 1.7rem; margin-bottom: 0.25rem; }
+    h2 { font-size: 1.15rem; margin-top: 2rem; }
+    .updated { color: #888; font-size: 0.9rem; margin-top: 0; }
+    a { color: #2563eb; }
+  </style>
+</head>
+<body>
+  <h1>Insuplate Privacy Policy</h1>
+  <p class="updated">Last updated: 10 November 2026</p>
+
+  <p>Insuplate (&ldquo;the app&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) is a carb counter and logbook for adults with
+  type 1 diabetes, for iPhone and Apple Watch, operated by FineCore. There is no account and no sign-in. The app has no
+  analytics, advertising, crash-reporting or attribution SDKs, and we do not track you.</p>
+  <p>Our <a href="#consumer-health-data">Consumer Health Data Privacy Policy</a>, including your rights under
+  Washington law, is part of this page.</p>
+
+  <h2>The short version</h2>
+  <ul>
+    <li>Only your meal leaves your phone: a meal or menu photo, or the words you say or type about a meal, with the
+        technical details listed below. It goes to <strong>Google Gemini</strong> to estimate carbs, and only after you
+        tap <strong>Allow</strong>.</li>
+    <li>Your glucose, your insulin units, your log and your Apple Health data stay on your phone. They are never sent
+        to Google Gemini or to anyone else.</li>
+    <li>The app does not look up restaurant or chain menus in any outside database. It sends dish names nowhere.</li>
+    <li>You can stop sending at any time in Settings.</li>
+  </ul>
+
+  <h2>What is sent, and when</h2>
+  <p>Before anything is sent, the app shows a sheet that says: &ldquo;Your meal photo, voice or text goes to Google
+  Gemini to estimate carbs.&rdquo; Nothing is sent until you tap <strong>Allow</strong>. If you tap
+  <strong>Not now</strong>, nothing is sent and the app keeps working with typed carbs, saved meals, label reading and
+  your log. The same sheet appears on every path that can send a meal: the app, the Scan control on the Lock Screen,
+  Siri and Apple Watch.</p>
+  <p>After you allow it, each estimate sends only:</p>
+  <ul>
+    <li><strong>A meal or menu photo</strong> you take for a scan, resized to at most 1024 pixels on its long side, with
+        location and other photo metadata (EXIF and GPS) removed; <em>or</em></li>
+    <li><strong>The words of your meal</strong>, typed or spoken. Speech is turned into text on your iPhone or Apple
+        Watch; the sound itself never leaves your devices; <em>or</em></li>
+    <li><strong>A fix</strong>: when you correct an estimate (&ldquo;only 2 slices&rdquo;), the list of items on that
+        estimate and your words;</li>
+    <li>plus fixed instructions from the app that ask for a carb estimate.</li>
+  </ul>
+  <p>Each request also carries the technical details any app request to this service needs: the app's bundle ID and
+  version, its Firebase app ID, a Firebase API key that only works for this app, and a short-lived App Check token,
+  made with Apple's App Attest, that shows the request came from a genuine copy of the app. On first use, Apple's App
+  Attest makes a key for this copy of the app. Google keeps it to check that later requests come from a genuine copy.
+  It isn't linked to your name, email or Apple Account. No name, email, account or user ID is sent. As with any
+  internet connection, the service sees the IP address the request comes from.</p>
+  <p>The purpose is to give you a carb estimate, nothing else.</p>
+
+  <h2>Who receives it</h2>
+  <p>Requests go through Google's Firebase AI Logic service to the Gemini model on Google Cloud's Agent Platform,
+  processed in Google Cloud's United States multi-region. Under Google Cloud's terms:</p>
+  <ul>
+    <li>Google does not use this data to train or fine-tune its AI models without our permission, and we have not given
+        it.</li>
+    <li>Google may cache requests to answer faster. Cached data is deleted no later than 24 hours after it is
+        written.</li>
+    <li>If Google's automated safety systems flag a request as possible misuse, Google may keep it for up to 90 days in
+        the same US region, and authorized Google staff may review it.</li>
+  </ul>
+  <p>See Google's pages on
+  <a href="https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/abuse-monitoring">abuse monitoring</a>
+  and <a href="https://docs.cloud.google.com/gemini-enterprise-agent-platform/resources/zero-data-retention">data
+  caching</a>, and the <a href="https://cloud.google.com/terms/service-terms">Google Cloud Service Specific
+  Terms</a>.</p>
+  <p>Google receives this data only under these terms, which protect it at least as well as this policy does.</p>
+  <p>We do not keep copies of your photos or words, and we have not turned on request logging for this service, so we
+  cannot see what you send.</p>
+
+  <h2>What stays on your phone</h2>
+  <ul>
+    <li><strong>Your log</strong>: meals, carbs, insulin units, glucose you type, notes, saved meals and the photos of
+        meals you log. It is stored in the app on your iPhone. We do not run a server and the app does not sync your
+        log to iCloud. Your log is included in your iPhone backups, which Apple keeps under your Apple Account.</li>
+    <li><strong>Apple Health</strong>: if you connect it, the app reads glucose and insulin, and checks which apps write
+        carbs or insulin, to show what each meal did. It writes the carbs and insulin you log, unless you turn that off.
+        Apple Health data is used only to show your own record in the app. It is never sent off your phone, never used
+        for advertising, and never shared or sold.</li>
+    <li><strong>On-device features</strong>: reading a nutrition label, searching foods (a built-in copy of the USDA
+        food table), speech recognition, and matching a scan to your past meals all run on your iPhone and send
+        nothing.</li>
+    <li><strong>Scan counts and purchases</strong>: your remaining free scans are kept in your iPhone's Keychain.
+        Purchases are handled by Apple through the App Store; we never see your payment details.</li>
+    <li><strong>Apple Watch, widgets, Siri and the Lock Screen</strong>: they work with the app on your iPhone. A meal
+        you say on Apple Watch is sent only through your iPhone, only after you allow it, exactly as described
+        above.</li>
+    <li><strong>Copy and export</strong>: the copy button puts only the carb number on your clipboard. A PDF or CSV
+        export goes only where you choose to save or share it.</li>
+  </ul>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li><strong>Stop sending</strong>: in the app, open Settings and turn off <strong>Send meals for AI
+        estimates</strong>. Nothing more is sent. Turning it back on shows the same sheet
+        first. Typed carbs, saved meals, label reads and your log keep working.</li>
+    <li><strong>What was already sent</strong>: nothing in a request names you and we keep no copy, so we cannot
+        find or delete a single past request. Google deletes it on the schedule above.</li>
+    <li><strong>Delete your data</strong>: delete entries in the app, or delete the app to remove everything it stored
+        on your iPhone. Carbs and insulin the app wrote to Apple Health stay in Apple Health until you delete them
+        there.</li>
+    <li><strong>Apple Health access</strong>: change or remove it in the Health app (your profile, then Apps, then
+        Insuplate).</li>
+    <li><strong>Camera and microphone</strong>: turn them off in the iOS Settings app. Typing still works.</li>
+  </ul>
+
+  <h2>Sharing and selling</h2>
+  <p>We do not sell or rent your information, share it for advertising, or track you across apps or websites. The only
+  third party that receives anything is Google, for the carb estimate described above.</p>
+
+  <h2>Age</h2>
+  <p>Insuplate is for adults 18 and over and is rated 18+ on the App Store. It is not directed at anyone under 18.</p>
+
+  <h2 id="consumer-health-data">Consumer Health Data Privacy Policy</h2>
+  <p>This section is our consumer health data privacy policy under Washington's My Health My Data Act
+  (RCW 19.373). It applies to everyone who uses Insuplate.</p>
+  <ul>
+    <li><strong>What we collect, and why</strong>: because Insuplate is for people with type 1 diabetes, what you send
+        for an estimate could be linked to a health condition. That is the meal or menu photo, the words of your meal,
+        or a fix, plus the technical details that come with each request (the IP address and the App Attest key
+        described above). We collect it only to give you the carb estimate you asked for. Your log (meals, carbs,
+        insulin units, glucose, notes, saved meals) and the Apple Health data the app reads are used only to show your
+        own record on your phone. We never receive them.</li>
+    <li><strong>Where it comes from</strong>: from you, when you take a photo or say or type a meal; and from Apple
+        Health, only with your permission and only on your phone.</li>
+    <li><strong>Sharing and selling</strong>: we do not share or sell consumer health data.</li>
+    <li><strong>Third parties</strong>: Google receives the request as our processor, only to produce the estimate,
+        under the terms described above. No one else receives it.</li>
+    <li><strong>Your rights</strong>: you can ask us to confirm whether we collect your consumer health data, to give
+        you a copy of it and the list of third parties that received it, and to delete it. You can withdraw your consent
+        at any time.
+      <ul>
+        <li>To withdraw consent: in Settings, turn off <strong>Send meals for AI estimates</strong>.</li>
+        <li>To delete your log: delete entries in the app, or delete the app.</li>
+        <li>Anything else: email <a href="mailto:hello@finecore.dev?subject=Insuplate%20consumer%20health%20data%20request">hello@finecore.dev</a>
+            with the subject &ldquo;Consumer health data request&rdquo;.</li>
+      </ul>
+      We answer within 45 days, free of charge. Nothing in a request names you and we keep no copy, so in most
+      cases our answer will be that we hold no consumer health data about you.</li>
+    <li><strong>Appeal</strong>: if we decline your request, reply to our answer to appeal. We decide appeals within 45
+        days and tell you why. If we deny your appeal, you can complain to the Washington State Attorney General:
+        <a href="https://www.atg.wa.gov/file-complaint">www.atg.wa.gov/file-complaint</a>.</li>
+  </ul>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, we will update the &ldquo;Last updated&rdquo; date above. If what the app sends changes,
+  the app will ask again before sending anything new.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy can be sent to
+  <a href="mailto:hello@finecore.dev?subject=Insuplate%20privacy">hello@finecore.dev</a>.
+  For help with the app, see <a href="support/">Insuplate Support</a>.</p>
+</body>
+</html>
