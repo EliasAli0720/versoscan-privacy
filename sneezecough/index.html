@@ -16,7 +16,7 @@
 </head>
 <body>
   <h1>Sneeze Cough Recorder Privacy Policy</h1>
-  <p class="updated">Last updated: 5 November 2026</p>
+  <p class="updated">Last updated: 12 November 2026</p>
 
   <p>Sneeze Cough Recorder (&ldquo;the app&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) counts coughs and sneezes on iPhone
   and Apple Watch. It is published on the App Store by Elias Ali. It is built to need as little of your data as possible:
@@ -28,6 +28,8 @@
     <li>We do not operate a server, and the app makes no network requests of its own. Your counts, sessions, sounds and
         settings are never sent to us or to any third party.</li>
     <li>We do not use analytics, advertising, crash-reporting or tracking SDKs of any kind.</li>
+    <li>If Share With App Developers is on in iOS Settings, Apple may give us crash data and app-use statistics,
+        aggregated or in a form that doesn't identify you. The app itself doesn't send them.</li>
   </ul>
 
   <h2>How your data is handled</h2>
@@ -38,14 +40,14 @@
         open, and with a sound classifier included in the app while it is in the background or your iPhone is locked. No audio
         is saved unless you turn on clips. The Apple Watch app does not use the microphone. Counting by hand never needs the
         microphone, and you can decline microphone access and keep using the rest of the app.</li>
-    <li><strong>Clips (optional, off by default)</strong>: if you turn on &ldquo;Keep short clips&rdquo;, the app keeps a
-        clip of at most 3 seconds around each counted or possible cough or sneeze so you can check it. No clips are made while the app is in the
-        background or your iPhone is locked. Clips stay on your
-        iPhone only, are excluded from iCloud and device backups, are deleted automatically after 7 days, and are never
-        included in reports or anything you share. The app tries not to keep sounds with speech, but a clip can still include some. You can delete all clips
-        at any time in Settings.</li>
+    <li><strong>Clips (optional, off by default)</strong>: if you turn on &ldquo;Keep short clips&rdquo;, the app keeps
+        clips of up to 4 seconds around counted or possible coughs and sneezes, including the moments just before and after
+        the sound, so you can check them. Clips are kept while the app is open, in the background and while your iPhone is
+        locked; some sounds won't have a clip. Clips stay on your iPhone only, are excluded from iCloud and device backups,
+        are deleted automatically after 7 days, and are never included in reports or anything you share. The app tries to
+        skip sounds with talking, but a clip can still include some. You can delete all clips at any time in Settings.</li>
     <li><strong>Storage</strong>: your counts, sessions and settings are stored on your iPhone and your Apple Watch. The
-        two sync directly with each other; nothing goes through iCloud or any server we operate. If you back up your
+        two sync with each other; nothing goes through iCloud or any server we operate. If you back up your
         iPhone (iCloud Backup or a computer), the system backup includes the app's counts like other app data; clips are
         excluded.</li>
     <li><strong>Wrist-motion samples (Apple Watch, optional, off by default)</strong>: if you turn on &ldquo;Save wrist
@@ -58,8 +60,9 @@
         uses them to count or detect anything. Recording pauses when the battery is low.</li>
     <li><strong>Apple Health (optional)</strong>: only if you turn on &ldquo;Save coughs to Health&rdquo;, the app asks for
         permission to write to the Coughing symptom in Health. It writes only coughs you entered by hand or confirmed after
-        a session, never possible ones. It does not read any Health data. Health has no sneeze type, so sneezes stay in the
-        app.</li>
+        a session, never possible ones. Health has no sneeze type, so sneezes stay in the app. Sleep and workouts are read
+        from Apple Health only if you turn them on. They're shown on this iPhone next to your counts and are not saved by
+        the app. A report includes them only if you choose.</li>
     <li><strong>Reports</strong>: PDF and CSV reports are created on your iPhone and leave it only through the share sheet
         you open.</li>
   </ul>
